@@ -3,7 +3,7 @@
 This guide explains how to create and use a bare Git repository for team collaboration, reflecting real practices in DevOps workflows.
 
 ### What is a Bare Repository?
-A bare Git repository contains only version control information and no working files. It is ideal as a "central remote repo" for development teams, similar to what GitHub or GitLab uses on their servers[web:5][web:6].
+A bare Git repository contains only version control information and no working files. It is ideal as a "central remote repo" for development teams, similar to what GitHub or GitLab uses on their servers.
 
 ---
 
@@ -44,16 +44,7 @@ Team members can now:
 ### Why Use a Bare Repository?
 
 - Prevents direct edits to central codebase; only git push/pull are allowed
-- Standard for remote repos, including GitHub/GitLab[web:5][web:6][web:7]
+- Standard for remote repos, including GitHub/GitLab
 - Facilitates safe, collaborative workflows
-
----
-
-## References
-
-See detailed examples and applications:
-- Bare Repository: Definition, Examples, and Applications[web:5]
-- Using bare git repos | Oxford Protein Informatics Group[web:6]
-- Bare Git Repositories[web:7]
 
 ---
